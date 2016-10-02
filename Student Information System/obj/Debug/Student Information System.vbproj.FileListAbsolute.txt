@@ -1,0 +1,53 @@
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\bin\Debug\Student Information System.exe.config
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\bin\Debug\Student Information System.exe
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\bin\Debug\Student Information System.pdb
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\bin\Debug\Student Information System.xml
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmadmin.resources
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Debug\Student_Information_System.Resources.resources
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Debug\Student Information System.vbproj.GenerateResource.Cache
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Debug\Student Information System.exe
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Debug\Student Information System.xml
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Debug\Student Information System.pdb
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmdept.resources
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmcourse.resources
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmstdnt.resources
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmrecord.resources
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmgrades.resources
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmlogin.resources
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmmain.resources
+D:\VB.NET PROJECTS\Student Information System\Student Information System\bin\Debug\Student Information System.exe.config
+D:\VB.NET PROJECTS\Student Information System\Student Information System\obj\Debug\Student Information System.exe
+D:\VB.NET PROJECTS\Student Information System\Student Information System\obj\Debug\Student Information System.xml
+D:\VB.NET PROJECTS\Student Information System\Student Information System\obj\Debug\Student Information System.pdb
+D:\VB.NET PROJECTS\Student Information System\Student Information System\bin\Debug\Student Information System.exe
+D:\VB.NET PROJECTS\Student Information System\Student Information System\bin\Debug\Student Information System.pdb
+D:\VB.NET PROJECTS\Student Information System\Student Information System\bin\Debug\Student Information System.xml
+D:\VB.NET PROJECTS\Student Information System\Student Information System\obj\Debug\ResolveAssemblyReference.cache
+D:\VB.NET PROJECTS\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmadmin.resources
+D:\VB.NET PROJECTS\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmcourse.resources
+D:\VB.NET PROJECTS\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmdept.resources
+D:\VB.NET PROJECTS\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmgrades.resources
+D:\VB.NET PROJECTS\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmlogin.resources
+D:\VB.NET PROJECTS\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmmain.resources
+D:\VB.NET PROJECTS\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmrecord.resources
+D:\VB.NET PROJECTS\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmstdnt.resources
+D:\VB.NET PROJECTS\Student Information System\Student Information System\obj\Debug\Student_Information_System.Resources.resources
+D:\VB.NET PROJECTS\Student Information System\Student Information System\obj\Debug\Student Information System.vbproj.GenerateResource.Cache
+C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\bin\Debug\Student Information System.exe.config
+C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\obj\Debug\Student Information System.exe
+C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\obj\Debug\Student Information System.xml
+C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\obj\Debug\Student Information System.pdb
+C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\bin\Debug\Student Information System.exe
+C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\bin\Debug\Student Information System.pdb
+C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\bin\Debug\Student Information System.xml
+C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmadmin.resources
+C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmcourse.resources
+C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmdept.resources
+C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmgrades.resources
+C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmlogin.resources
+C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmmain.resources
+C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmrecord.resources
+C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmstdnt.resources
+C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\obj\Debug\Student_Information_System.Resources.resources
+C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\obj\Debug\Student Information System.vbproj.GenerateResource.Cache
