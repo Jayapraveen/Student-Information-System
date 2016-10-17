@@ -176,4 +176,7 @@ Public Class frmrecord
     End Sub
 
 
+    Private Sub CommentTextBox_TextChanged(sender As Object, e As EventArgs) Handles CommentTextBox.TextChanged
+
+    End Sub
 End Class

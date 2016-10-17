@@ -1,0 +1,11 @@
+Module1 = 0, 0, 0, 0, C
+frmadd = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+MDIForm1 = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmLogin = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmaccount = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmsearch = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmsplash = 25, 25, 1450, 610, , 0, 0, 0, 0, C
+frmdelete = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmguardian = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmpic = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+Form1 = 0, 0, 0, 0, C, 0, 0, 0, 0, C

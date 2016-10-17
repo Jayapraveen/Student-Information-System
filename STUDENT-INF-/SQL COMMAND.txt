@@ -1,0 +1,17 @@
+create table STUDENT(ID int IDENTITY(1,1),NAME nvarchar(MAX),DOB nvarchar(MAX),COURSE nvarchar(MAX),ADDRESS nvarchar(MAX),PHONE_NO nvarchar(MAX),EMAIL nvarchar(MAX));
+
+ Public Sub IMPORT()
+SET IDENTITY_INSERT TEST ON INSERT INTO test (ID,NAME) SELECT ID,NAME FROM STUDENT;
+    End Sub
+	
+	
+	insert into student values('name','12','as','qw','as','as')
+	
+	
+	create table RECORD(ID int IDENTITY(1,1),NAME nvarchar(MAX),INCIDENT nvarchar(MAX),RECORD_DATE nvarchar(MAX),COMMENT nvarchar(MAX));
+	
+	create table GRADES(ID int IDENTITY(1,1),NAME nvarchar(MAX),SUBJECT nvarchar(MAX),GRADE nvarchar(MAX),ASSESMENT nvarchar(MAX),COMMENT nvarchar(MAX));
+	
+	
+	
+	

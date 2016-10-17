@@ -1,0 +1,45 @@
+G:\Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\bin\Debug\STUDENT-INF-.exe.config
+G:\Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\bin\Debug\STUDENT-INF-.exe
+G:\Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\bin\Debug\STUDENT-INF-.pdb
+G:\Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\bin\Debug\STUDENT-INF-.xml
+G:\Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.frmgrades.resources
+G:\Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.frmmain.resources
+G:\Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.frmrecord.resources
+G:\Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.frmstdnt.resources
+G:\Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.login.resources
+G:\Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.splash.resources
+G:\Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.Resources.resources
+G:\Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT-INFORMATION-SYSTEM.vbproj.GenerateResource.Cache
+G:\Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT-INF-.exe
+G:\Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT-INF-.xml
+G:\Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT-INF-.pdb
+H:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\bin\Debug\STUDENT-INF-.exe.config
+H:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT-INF-.exe
+H:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT-INF-.xml
+H:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT-INF-.pdb
+H:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\bin\Debug\STUDENT-INF-.exe
+H:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\bin\Debug\STUDENT-INF-.pdb
+H:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\bin\Debug\STUDENT-INF-.xml
+H:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.frmgrades.resources
+H:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.frmmain.resources
+H:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.frmrecord.resources
+H:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.frmstdnt.resources
+H:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.login.resources
+H:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.splash.resources
+H:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.Resources.resources
+H:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT-INFORMATION-SYSTEM.vbproj.GenerateResource.Cache
+G:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\bin\Debug\STUDENT-INF-.exe.config
+G:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT-INF-.exe
+G:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT-INF-.xml
+G:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT-INF-.pdb
+G:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\bin\Debug\STUDENT-INF-.exe
+G:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\bin\Debug\STUDENT-INF-.pdb
+G:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\bin\Debug\STUDENT-INF-.xml
+G:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.frmgrades.resources
+G:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.frmmain.resources
+G:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.frmrecord.resources
+G:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.frmstdnt.resources
+G:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.login.resources
+G:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.splash.resources
+G:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT_INF_.Resources.resources
+G:\ \Student-Information-System-master\STUDENT-INF-\STUDENT-INF-\obj\Debug\STUDENT-INFORMATION-SYSTEM.vbproj.GenerateResource.Cache

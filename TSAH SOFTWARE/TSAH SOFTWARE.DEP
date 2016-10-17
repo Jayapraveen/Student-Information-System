@@ -1,0 +1,43 @@
+[Version]
+Version=1.0.0.0
+
+[TSAH SOFTWARE.exe <0009>]
+Dest=$(AppPath)
+Date=8/1/2010
+Time=12:40
+Version=1.0.0.0
+CABFilename=TSAH SOFTWARE.CAB
+CABINFFile=TSAH SOFTWARE.INF
+Uses1=msvbvm60.dll
+Uses2=oleaut32.dll
+Uses3=olepro32.dll
+Uses4=asycfilt.dll
+Uses5=stdole2.tlb
+Uses6=COMCAT.DLL
+Uses7=MSBIND.DLL
+Uses8=MSDERUN.DLL
+Uses9=msado20.tlb
+Uses10=COMCTL32.OCX
+Uses11=MSCOMCTL.OCX
+Uses12=MSCOMM32.OCX
+Uses13=comdlg32.ocx
+Uses14=MSADODC.OCX
+Uses15=MSDATGRD.OCX
+Uses16=MSDATLST.OCX
+Uses17=DBGRID32.OCX
+Uses18=MSFLXGRD.OCX
+Uses19=MSDBRPTR.DLL
+Uses20=cselexpt.ocx
+Uses21=Crystl32.OCX
+
+[msado20.tlb <0009>]
+Dest=$(WinSysPath)
+Date=4/14/2008
+Time=12:30
+Version=2.81.1132.0
+
+[cselexpt.ocx <0009>]
+Dest=$(WinSysPath)
+Date=2/3/2001
+Time=00:00
+Version=8.5.0.35

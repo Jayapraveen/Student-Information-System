@@ -1,0 +1,711 @@
+VERSION 5.00
+Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCTL.OCX"
+Object = "{67397AA1-7FB1-11D0-B148-00A0C922E820}#6.0#0"; "MSADODC.OCX"
+Begin VB.Form Form1 
+   Caption         =   "Form1"
+   ClientHeight    =   9105
+   ClientLeft      =   60
+   ClientTop       =   345
+   ClientWidth     =   9840
+   LinkTopic       =   "Form1"
+   ScaleHeight     =   9105
+   ScaleWidth      =   9840
+   StartUpPosition =   3  'Windows Default
+   Begin MSAdodcLib.Adodc Adodc1 
+      Height          =   375
+      Left            =   6120
+      Top             =   240
+      Visible         =   0   'False
+      Width           =   1815
+      _ExtentX        =   3201
+      _ExtentY        =   661
+      ConnectMode     =   0
+      CursorLocation  =   3
+      IsolationLevel  =   -1
+      ConnectionTimeout=   15
+      CommandTimeout  =   30
+      CursorType      =   3
+      LockType        =   3
+      CommandType     =   2
+      CursorOptions   =   0
+      CacheSize       =   50
+      MaxRecords      =   0
+      BOFAction       =   0
+      EOFAction       =   0
+      ConnectStringType=   1
+      Appearance      =   1
+      BackColor       =   -2147483643
+      ForeColor       =   -2147483640
+      Orientation     =   0
+      Enabled         =   -1
+      Connect         =   $"Form1.frx":0000
+      OLEDBString     =   $"Form1.frx":008D
+      OLEDBFile       =   ""
+      DataSourceName  =   ""
+      OtherAttributes =   ""
+      UserName        =   ""
+      Password        =   ""
+      RecordSource    =   "tblInfo"
+      Caption         =   "Adodc1"
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "MS Sans Serif"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      _Version        =   393216
+   End
+   Begin VB.Frame Frame11 
+      BackColor       =   &H00D8E9EC&
+      Height          =   120
+      Left            =   480
+      TabIndex        =   20
+      Top             =   720
+      Width           =   19380
+   End
+   Begin VB.CommandButton CmdSave 
+      BackColor       =   &H00FFFFFF&
+      Caption         =   "&Save"
+      Height          =   713
+      Left            =   3000
+      Picture         =   "Form1.frx":011A
+      Style           =   1  'Graphical
+      TabIndex        =   19
+      ToolTipText     =   "Save"
+      Top             =   8400
+      Width           =   615
+   End
+   Begin VB.CommandButton cmdEdit 
+      BackColor       =   &H00FFFFFF&
+      Caption         =   "&Edit"
+      Height          =   713
+      Left            =   1560
+      Picture         =   "Form1.frx":07F6
+      Style           =   1  'Graphical
+      TabIndex        =   18
+      ToolTipText     =   "Edit"
+      Top             =   8400
+      Width           =   615
+   End
+   Begin VB.CommandButton cmdADD 
+      BackColor       =   &H00FFFFFF&
+      Caption         =   "&Add"
+      Height          =   713
+      Left            =   720
+      Picture         =   "Form1.frx":0E77
+      Style           =   1  'Graphical
+      TabIndex        =   17
+      ToolTipText     =   "Add"
+      Top             =   8400
+      Width           =   615
+   End
+   Begin VB.CommandButton cmdCan 
+      BackColor       =   &H00FFFFFF&
+      Caption         =   "&Cancel"
+      Height          =   713
+      Left            =   3840
+      Picture         =   "Form1.frx":14C2
+      Style           =   1  'Graphical
+      TabIndex        =   16
+      ToolTipText     =   "Cancel"
+      Top             =   8400
+      Width           =   615
+   End
+   Begin VB.CommandButton cmdDel 
+      BackColor       =   &H00FFFFFF&
+      Caption         =   "&Delete"
+      Height          =   713
+      Left            =   2280
+      Picture         =   "Form1.frx":1BD9
+      Style           =   1  'Graphical
+      TabIndex        =   15
+      ToolTipText     =   "Delete"
+      Top             =   8400
+      Width           =   615
+   End
+   Begin VB.CommandButton cmdExit 
+      BackColor       =   &H00FFFFFF&
+      Caption         =   "E&xit"
+      Height          =   713
+      Left            =   8760
+      Picture         =   "Form1.frx":222E
+      Style           =   1  'Graphical
+      TabIndex        =   14
+      ToolTipText     =   "Exit"
+      Top             =   8400
+      Width           =   615
+   End
+   Begin VB.Frame Frame1 
+      BackColor       =   &H00D8E9EC&
+      Height          =   120
+      Left            =   0
+      TabIndex        =   13
+      Top             =   8160
+      Width           =   19380
+   End
+   Begin VB.Frame Frame2 
+      BackColor       =   &H00D8E9EC&
+      Caption         =   "Data Entry :"
+      BeginProperty Font 
+         Name            =   "Verdana"
+         Size            =   9
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H000000FF&
+      Height          =   3975
+      Left            =   720
+      TabIndex        =   3
+      Top             =   4200
+      Width           =   8655
+      Begin VB.TextBox Text2 
+         Height          =   375
+         Left            =   1680
+         TabIndex        =   38
+         Top             =   720
+         Width           =   2415
+      End
+      Begin VB.TextBox Text10 
+         Height          =   375
+         Left            =   1680
+         TabIndex        =   36
+         Top             =   3000
+         Width           =   2415
+      End
+      Begin VB.TextBox Text9 
+         Height          =   375
+         Left            =   1680
+         TabIndex        =   35
+         Top             =   240
+         Width           =   1455
+      End
+      Begin VB.ComboBox Combo2 
+         Height          =   315
+         ItemData        =   "Form1.frx":291D
+         Left            =   6000
+         List            =   "Form1.frx":292D
+         TabIndex        =   33
+         Top             =   840
+         Width           =   2415
+      End
+      Begin VB.ComboBox Combo1 
+         Height          =   315
+         ItemData        =   "Form1.frx":294B
+         Left            =   1680
+         List            =   "Form1.frx":2955
+         TabIndex        =   32
+         Top             =   2160
+         Width           =   2415
+      End
+      Begin VB.TextBox Text8 
+         Height          =   375
+         Left            =   6000
+         TabIndex        =   31
+         Top             =   1440
+         Width           =   2415
+      End
+      Begin VB.TextBox Text7 
+         Height          =   375
+         Left            =   6000
+         TabIndex        =   30
+         Top             =   360
+         Width           =   2415
+      End
+      Begin VB.TextBox Text6 
+         Height          =   375
+         Left            =   1680
+         TabIndex        =   29
+         Top             =   2520
+         Width           =   2415
+      End
+      Begin VB.TextBox Text5 
+         Height          =   375
+         Left            =   1680
+         TabIndex        =   28
+         Top             =   3480
+         Width           =   2415
+      End
+      Begin VB.TextBox Text4 
+         Height          =   375
+         Left            =   1680
+         TabIndex        =   27
+         Top             =   1680
+         Width           =   2415
+      End
+      Begin VB.TextBox Text3 
+         Height          =   375
+         Left            =   1680
+         TabIndex        =   26
+         Top             =   1200
+         Width           =   2415
+      End
+      Begin VB.Label Label15 
+         Alignment       =   1  'Right Justify
+         BackStyle       =   0  'Transparent
+         Caption         =   "Present Address :"
+         BeginProperty Font 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   495
+         Left            =   0
+         TabIndex        =   37
+         Top             =   3000
+         Width           =   1575
+      End
+      Begin VB.Label Label14 
+         Caption         =   "Student ID:"
+         Height          =   375
+         Left            =   720
+         TabIndex        =   34
+         Top             =   360
+         Width           =   855
+      End
+      Begin VB.Label Label10 
+         BackStyle       =   0  'Transparent
+         Caption         =   "Year level :"
+         Height          =   375
+         Left            =   5160
+         TabIndex        =   12
+         Top             =   1440
+         Width           =   735
+      End
+      Begin VB.Label Label9 
+         Alignment       =   1  'Right Justify
+         BackStyle       =   0  'Transparent
+         Caption         =   "Course :"
+         BeginProperty Font 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   375
+         Left            =   4920
+         TabIndex        =   11
+         Top             =   840
+         Width           =   855
+      End
+      Begin VB.Label Label8 
+         Alignment       =   1  'Right Justify
+         BackStyle       =   0  'Transparent
+         Caption         =   "Provincial  Address :"
+         BeginProperty Font 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   495
+         Left            =   4080
+         TabIndex        =   10
+         Top             =   360
+         Width           =   1815
+         WordWrap        =   -1  'True
+      End
+      Begin VB.Label Label7 
+         Alignment       =   1  'Right Justify
+         BackStyle       =   0  'Transparent
+         Caption         =   "City Address :"
+         BeginProperty Font 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   495
+         Left            =   0
+         TabIndex        =   9
+         Top             =   3480
+         Width           =   1575
+      End
+      Begin VB.Label Label6 
+         BackStyle       =   0  'Transparent
+         Caption         =   "Gender :"
+         BeginProperty Font 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   375
+         Left            =   840
+         TabIndex        =   8
+         Top             =   2160
+         Width           =   855
+      End
+      Begin VB.Label Label5 
+         Alignment       =   1  'Right Justify
+         BackStyle       =   0  'Transparent
+         Caption         =   "Date Of Birth :"
+         BeginProperty Font 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   375
+         Left            =   0
+         TabIndex        =   7
+         Top             =   2520
+         Width           =   1575
+      End
+      Begin VB.Label Label4 
+         BackStyle       =   0  'Transparent
+         Caption         =   "Middle Initial :"
+         BeginProperty Font 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   375
+         Left            =   600
+         TabIndex        =   6
+         Top             =   1200
+         Width           =   1095
+      End
+      Begin VB.Label Label3 
+         Alignment       =   1  'Right Justify
+         BackStyle       =   0  'Transparent
+         Caption         =   "First Name :"
+         BeginProperty Font 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   375
+         Left            =   -840
+         TabIndex        =   5
+         Top             =   720
+         Width           =   2415
+      End
+      Begin VB.Label Label2 
+         Alignment       =   1  'Right Justify
+         BackStyle       =   0  'Transparent
+         Caption         =   "Last Name :"
+         BeginProperty Font 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   255
+         Left            =   -840
+         TabIndex        =   4
+         Top             =   1680
+         Width           =   2415
+      End
+   End
+   Begin VB.Frame Frame3 
+      BackColor       =   &H00D8E9EC&
+      Caption         =   "Details :"
+      BeginProperty Font 
+         Name            =   "Verdana"
+         Size            =   9
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H000000FF&
+      Height          =   735
+      Left            =   720
+      TabIndex        =   1
+      Top             =   840
+      Width           =   8535
+      Begin VB.CommandButton Command1 
+         Caption         =   "Search"
+         Height          =   375
+         Left            =   3840
+         TabIndex        =   25
+         Top             =   240
+         Width           =   1455
+      End
+      Begin VB.TextBox Text1 
+         Height          =   375
+         Left            =   1680
+         TabIndex        =   24
+         Top             =   240
+         Width           =   1935
+      End
+      Begin VB.Label Label11 
+         BackStyle       =   0  'Transparent
+         Caption         =   "Enter Lastname"
+         BeginProperty Font 
+            Name            =   "Tahoma"
+            Size            =   9
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   375
+         Left            =   240
+         TabIndex        =   2
+         Top             =   240
+         Width           =   1455
+      End
+   End
+   Begin MSComctlLib.ListView lv 
+      Height          =   2415
+      Left            =   720
+      TabIndex        =   0
+      Top             =   1680
+      Width           =   8535
+      _ExtentX        =   15055
+      _ExtentY        =   4260
+      View            =   3
+      LabelEdit       =   1
+      LabelWrap       =   0   'False
+      HideSelection   =   -1  'True
+      FullRowSelect   =   -1  'True
+      GridLines       =   -1  'True
+      _Version        =   393217
+      ForeColor       =   -2147483640
+      BackColor       =   -2147483643
+      BorderStyle     =   1
+      Appearance      =   0
+      NumItems        =   12
+      BeginProperty ColumnHeader(1) {BDD1F052-858B-11D1-B16A-00C0F0283628} 
+         Text            =   "student ID"
+         Object.Width           =   2540
+      EndProperty
+      BeginProperty ColumnHeader(2) {BDD1F052-858B-11D1-B16A-00C0F0283628} 
+         SubItemIndex    =   1
+         Text            =   "First Name"
+         Object.Width           =   2540
+      EndProperty
+      BeginProperty ColumnHeader(3) {BDD1F052-858B-11D1-B16A-00C0F0283628} 
+         SubItemIndex    =   2
+         Text            =   "M.I."
+         Object.Width           =   2540
+      EndProperty
+      BeginProperty ColumnHeader(4) {BDD1F052-858B-11D1-B16A-00C0F0283628} 
+         SubItemIndex    =   3
+         Text            =   "Last Name"
+         Object.Width           =   2540
+      EndProperty
+      BeginProperty ColumnHeader(5) {BDD1F052-858B-11D1-B16A-00C0F0283628} 
+         SubItemIndex    =   4
+         Text            =   "Date Of Birth"
+         Object.Width           =   2540
+      EndProperty
+      BeginProperty ColumnHeader(6) {BDD1F052-858B-11D1-B16A-00C0F0283628} 
+         SubItemIndex    =   5
+         Text            =   "Gender"
+         Object.Width           =   2540
+      EndProperty
+      BeginProperty ColumnHeader(7) {BDD1F052-858B-11D1-B16A-00C0F0283628} 
+         SubItemIndex    =   6
+         Text            =   "Present Address"
+         Object.Width           =   2540
+      EndProperty
+      BeginProperty ColumnHeader(8) {BDD1F052-858B-11D1-B16A-00C0F0283628} 
+         SubItemIndex    =   7
+         Text            =   "City Address"
+         Object.Width           =   2540
+      EndProperty
+      BeginProperty ColumnHeader(9) {BDD1F052-858B-11D1-B16A-00C0F0283628} 
+         SubItemIndex    =   8
+         Text            =   "Provincial Address"
+         Object.Width           =   2540
+      EndProperty
+      BeginProperty ColumnHeader(10) {BDD1F052-858B-11D1-B16A-00C0F0283628} 
+         SubItemIndex    =   9
+         Text            =   "Course"
+         Object.Width           =   2540
+      EndProperty
+      BeginProperty ColumnHeader(11) {BDD1F052-858B-11D1-B16A-00C0F0283628} 
+         SubItemIndex    =   10
+         Text            =   "Year"
+         Object.Width           =   2540
+      EndProperty
+      BeginProperty ColumnHeader(12) {BDD1F052-858B-11D1-B16A-00C0F0283628} 
+         SubItemIndex    =   11
+         Object.Width           =   2540
+      EndProperty
+   End
+   Begin VB.Label Label1 
+      BackStyle       =   0  'Transparent
+      Caption         =   "STUDENT INFO"
+      BeginProperty Font 
+         Name            =   "Impact"
+         Size            =   18
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H8000000E&
+      Height          =   375
+      Left            =   840
+      TabIndex        =   23
+      Top             =   120
+      Width           =   6975
+   End
+   Begin VB.Image Image6 
+      Height          =   765
+      Left            =   600
+      Picture         =   "Form1.frx":2967
+      Stretch         =   -1  'True
+      Top             =   0
+      Width           =   16005
+   End
+   Begin VB.Label Label12 
+      AutoSize        =   -1  'True
+      BackStyle       =   0  'Transparent
+      Caption         =   "Student Information"
+      BeginProperty Font 
+         Name            =   "Tahoma"
+         Size            =   20.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00808080&
+      Height          =   495
+      Left            =   600
+      TabIndex        =   22
+      Top             =   120
+      Width           =   4170
+   End
+   Begin VB.Label Label13 
+      Alignment       =   1  'Right Justify
+      BackStyle       =   0  'Transparent
+      Caption         =   "This form is used to Add, Edit and Delete STUDENT RECORDS."
+      BeginProperty Font 
+         Name            =   "Verdana"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00808080&
+      Height          =   495
+      Left            =   4800
+      TabIndex        =   21
+      Top             =   120
+      Width           =   3495
+   End
+   Begin VB.Image Image1 
+      Height          =   765
+      Left            =   600
+      Picture         =   "Form1.frx":2A04
+      Stretch         =   -1  'True
+      Top             =   8280
+      Width           =   16005
+   End
+End
+Attribute VB_Name = "Form1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+
+Private Sub cmdADD_Click()
+ rs.Open "tblInfo", Adodc1.ConnectionString, 2, 3
+
+ rs.AddNew
+ rs.Fields(0) = Text9
+ rs.Fields(1) = Text2
+ rs.Fields(2) = Text3
+ rs.Fields(3) = Text4
+ rs.Fields(4) = Combo1
+ rs.Fields(5) = Text6
+ rs.Fields(6) = Text10
+ rs.Fields(7) = Text5
+ rs.Fields(8) = Text7
+ rs.Fields(9) = Combo2
+ rs.Fields(10) = Text8
+ rs.Update
+ rs.Close
+ MsgBox "File Successfully Add", vbInformation
+ Text9.Text = ""
+ Text2.Text = ""
+ Text3.Text = ""
+ Text4.Text = ""
+ Combo1.Text = ""
+ Text6.Text = ""
+ Text10.Text = ""
+ Text5.Text = ""
+ Text7.Text = ""
+ Combo2.Text = ""
+ Text8.Text = ""
+ 
+End Sub
+
+Private Sub cmdEdit_Click()
+Form2.Show
+End Sub
+
+Private Sub Command1_Click()
+rs.Open "select * from tblinfo where Lastname like'" & Text1 & "'", Adodc1.ConnectionString, 1, 3
+
+If Not rs.EOF Then
+
+Set lst = lv.ListItems.Add
+        lst.SubItems(1) = rs.Fields(0)
+        lst.SubItems(2) = rs.Fields(1)
+        lst.SubItems(3) = rs.Fields(2)
+        lst.SubItems(4) = rs.Fields(3)
+        lst.SubItems(5) = rs.Fields(4)
+        lst.SubItems(6) = rs.Fields(5)
+        lst.SubItems(7) = rs.Fields(6)
+        lst.SubItems(8) = rs.Fields(7)
+        lst.SubItems(9) = rs.Fields(8)
+        lst.SubItems(10) = rs.Fields(9)
+        lst.SubItems(11) = rs.Fields(10)
+        rs.Close
+Else
+MsgBox "Find Zero", vbInformation
+
+
+End If
+
+
+End Sub
+

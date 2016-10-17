@@ -1,0 +1,18 @@
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\bin\Release\Student Information System.exe.config
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\bin\Release\Student Information System.exe
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\bin\Release\Student Information System.pdb
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\bin\Release\Student Information System.xml
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Release\ResolveAssemblyReference.cache
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Release\Student_Information_System.frmadmin.resources
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Release\Student_Information_System.frmcourse.resources
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Release\Student_Information_System.frmdept.resources
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Release\Student_Information_System.frmgrades.resources
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Release\Student_Information_System.frmlogin.resources
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Release\Student_Information_System.frmmain.resources
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Release\Student_Information_System.frmrecord.resources
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Release\Student_Information_System.frmstdnt.resources
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Release\Student_Information_System.Resources.resources
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Release\Student Information System.vbproj.GenerateResource.Cache
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Release\Student Information System.exe
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Release\Student Information System.xml
+C:\Users\machuca\Documents\Visual Studio 2008\Projects\Student Information System\Student Information System\obj\Release\Student Information System.pdb

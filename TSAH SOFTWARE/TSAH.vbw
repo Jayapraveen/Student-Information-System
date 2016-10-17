@@ -1,0 +1,16 @@
+frmsturegister1 = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+AdodbConnection = 0, 0, 0, 0, C
+frmStudGeneral = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+Form2 = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+aboutfrm = 0, 0, 0, 0, C, 25, 25, 1425, 672, C
+frmhelp = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+deletestd = 0, 0, 0, 0, C, 75, 75, 1475, 722, C
+MDIForm1 = 125, 125, 1525, 772, , 100, 100, 1502, 747, C
+gradfrm = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmlogin = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmwallpaper = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmSplash = 50, 50, 1450, 697, C, 25, 25, 1425, 672, C
+frmSplash1 = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmreports = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+backup = 0, 0, 0, 0, C, 50, 50, 1450, 697, C
+welcomefrm = 0, 0, 0, 0, C, 75, 75, 1475, 722, C

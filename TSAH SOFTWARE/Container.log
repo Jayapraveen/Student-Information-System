@@ -1,0 +1,10 @@
+Line 34: Class Crystal.CrystalReport of control CrystalReport1 was not a loaded control class.
+Line 141: Class CSELEXPTLib.VSelExpert of control VSelExpert1 was not a loaded control class.
+Line 37: The property name _ExtentX in CrystalReport1 is invalid.
+Line 38: The property name _ExtentY in CrystalReport1 is invalid.
+Line 39: The property name _Version in CrystalReport1 is invalid.
+Line 40: The property name PrintFileLinesPerPage in CrystalReport1 is invalid.
+Line 147: The property name _Version in VSelExpert1 is invalid.
+Line 148: The property name _ExtentX in VSelExpert1 is invalid.
+Line 149: The property name _ExtentY in VSelExpert1 is invalid.
+Line 150: The property name _StockProps in VSelExpert1 is invalid.

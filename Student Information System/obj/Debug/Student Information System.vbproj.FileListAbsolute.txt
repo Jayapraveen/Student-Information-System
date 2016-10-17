@@ -51,3 +51,20 @@ C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\o
 C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\obj\Debug\Student_Information_System.frmstdnt.resources
 C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\obj\Debug\Student_Information_System.Resources.resources
 C:\Users\JMATRIX\Desktop\Student Information System\Student Information System\obj\Debug\Student Information System.vbproj.GenerateResource.Cache
+G:\ \Student-Information-System-master\Student Information System\bin\Debug\Student Information System.exe.config
+G:\ \Student-Information-System-master\Student Information System\obj\Debug\Student Information System.exe
+G:\ \Student-Information-System-master\Student Information System\obj\Debug\Student Information System.xml
+G:\ \Student-Information-System-master\Student Information System\obj\Debug\Student Information System.pdb
+G:\ \Student-Information-System-master\Student Information System\bin\Debug\Student Information System.exe
+G:\ \Student-Information-System-master\Student Information System\bin\Debug\Student Information System.pdb
+G:\ \Student-Information-System-master\Student Information System\bin\Debug\Student Information System.xml
+G:\ \Student-Information-System-master\Student Information System\obj\Debug\Student_Information_System.frmadmin.resources
+G:\ \Student-Information-System-master\Student Information System\obj\Debug\Student_Information_System.frmcourse.resources
+G:\ \Student-Information-System-master\Student Information System\obj\Debug\Student_Information_System.frmdept.resources
+G:\ \Student-Information-System-master\Student Information System\obj\Debug\Student_Information_System.frmgrades.resources
+G:\ \Student-Information-System-master\Student Information System\obj\Debug\Student_Information_System.frmlogin.resources
+G:\ \Student-Information-System-master\Student Information System\obj\Debug\Student_Information_System.frmmain.resources
+G:\ \Student-Information-System-master\Student Information System\obj\Debug\Student_Information_System.frmrecord.resources
+G:\ \Student-Information-System-master\Student Information System\obj\Debug\Student_Information_System.frmstdnt.resources
+G:\ \Student-Information-System-master\Student Information System\obj\Debug\Student_Information_System.Resources.resources
+G:\ \Student-Information-System-master\Student Information System\obj\Debug\Student Information System.vbproj.GenerateResource.Cache
